@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<link rel="stylesheet" href="styles.css">
+
+<title>Payment | FloraCocoa</title>
+
+<style>
+
+.payment__box{
+max-width:500px;
+margin:auto;
+padding:2rem;
+background:#fff;
+border-radius:10px;
+box-shadow:0 5px 20px rgba(0,0,0,0.1);
+}
+
+.payment__box input,
+.payment__box select{
+width:100%;
+padding:10px;
+margin:10px 0;
+border:1px solid #ddd;
+border-radius:5px;
+}
+
+.payment__btn{
+width:100%;
+padding:12px;
+background:var(--primary-color);
+color:white;
+border:none;
+border-radius:5px;
+font-size:1rem;
+cursor:pointer;
+}
+
+.payment__btn:hover{
+opacity:.9;
+}
+
+</style>
+
+</head>
+
+<body>
+
+
+<!-- Navigation -->
+
+<nav>
+
+<div class="nav__header">
+<div class="nav__logo">
+<a href="index.html" class="logo">FloraCocoa</a>
+</div>
+</div>
+
+<ul class="nav__links">
+<li><a href="index.html">Home</a></li>
+<li><a href="index.html#product">Products</a></li>
+<li><a href="index.html#contact">Contact</a></li>
+</ul>
+
+</nav>
+
+
+
+<!-- Payment Section -->
+
+<section class="section__container">
+
+<h2 class="section__header">Secure Payment</h2>
+
+<div class="payment__box">
+
+<form>
+
+<label>Full Name</label>
+<input type="text" placeholder="Enter your name" required>
+
+<label>Email</label>
+<input type="email" placeholder="Enter email">
+
+<label>Payment Method</label>
+
+<select>
+<option>Credit Card</option>
+<option>Debit Card</option>
+<option>UPI</option>
+<option>Net Banking</option>
+</select>
+
+<label>Card Number</label>
+<input type="text" placeholder="1234 5678 9012 3456">
+
+<label>Expiry Date</label>
+<input type="text" placeholder="MM/YY">
+
+<label>CVV</label>
+<input type="password" placeholder="123">
+
+<div style="text-align:center;">
+<a href="success.html" class="payment__btn">Pay Now</a>
+</div>
+
+</form>
+
+</div>
+
+</section>
+
+
+
+<!-- Footer -->
+
+<footer class="footer">
+
+<div class="section__container footer__container">
+
+<div class="footer__col">
+
+<div class="footer__logo">
+<a href="#" class="logo">FloraCocoa</a>
+</div>
+
+<p>
+Premium handcrafted chocolates inspired by the symbolism of flowers.
+</p>
+
+</div>
+
+</div>
+
+<div class="footer__bar">
+© 2026 FloraCocoa. All Rights Reserved.
+</div>
+
+</footer>
+
+
+</body>
+</html>
