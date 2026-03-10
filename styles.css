@@ -552,3 +552,22 @@ nav {
     gap: 4rem 2rem;
   }
 }
+
+.buy-btn{
+position:absolute;
+top:8px;
+right:8px;
+display:inline-block;
+padding:3px 8px;
+background:#e91e63;
+color:white;
+text-decoration:none;
+border-radius:5px;
+font-size:18px;
+font-weight:400;
+  transition:0.3s;
+}
+
+.buy-btn:hover{
+  transform:scale(1.2);
+}
