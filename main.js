@@ -60,4 +60,17 @@ ScrollReveal().reveal(".about__card", {
 
 const swiper = new Swiper(".swiper", {
   loop: true,
+
+  autoplay: {
+    delay: 3000,
+    disableOnInteraction: false,
+  },
+
+  slidesPerView: 1,
+  spaceBetween: 20,
+
+  pagination: {
+    el: ".swiper-pagination",
+    clickable: true,
+  },
 });
